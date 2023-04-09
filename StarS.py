@@ -18,7 +18,7 @@ length1 = -100
 length2 = 5
 angle = 60
 
-#Loop:============================================================
+#Loop============================================================
 for x in range(25):
     turtle.forward(length1)
     turtle.left(angle)
@@ -31,7 +31,8 @@ turtle.home()
 turtle.penup()
 turtle.forward(250)
 turtle.pendown()
-#=================================================================
+
+# Set the turtle how I want it. ================================================================
 turtle.color("orange")
 turtle.shape("circle")
 turtle.left(180)
@@ -51,23 +52,25 @@ for x in range(20):
     turtle.forward(length3)
     turtle.right(length2)
 
+# Moving Turtle Again======================================
 
 turtle.left(90)
 turtle.penup()
 turtle.forward(-300)
 turtle.pendown()
 
-#=================================================
-
 turtle.penup()
 turtle.forward(-50)
 turtle.pendown()
 #=================================================
+# Setting turtle again bla bla bla im pretty sure you can figure it out now.
+
 turtle.color("dark orange")
 turtle.shape("circle")
 turtle.left(-180)
 turtle.turtlesize(0.5,1)
 
+#===============================================================
 
 length1 = -25
 length2 = 15
@@ -80,7 +83,7 @@ for x in range(20):
     turtle.left(angle)
     turtle.forward(length3)
     turtle.right(length2)
-#==================================================
+#============================================================
 
 turtle.penup()
 turtle.forward(250)
@@ -92,6 +95,7 @@ turtle.shape("circle")
 turtle.left(-180)
 turtle.turtlesize(0.5,1)
 
+#==============================================================================
 
 length1 = -75
 length2 = 55
