@@ -1,7 +1,7 @@
 # StarryNight
 Code by randysgithuubs on GitHub.
 
-(At the time im writing this it is not done but most isues on this code at this time have been fixed.)
+(Disclaimer:At the time im writing this, the code in StarS.py is not done but most isues at this time have been fixed.)
 
 
 
