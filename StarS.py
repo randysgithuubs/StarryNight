@@ -11,8 +11,8 @@ scr.bgcolor("black")
 
 
 turtle.color("red")
-turtle.shape("triangle")
-turtle.turtlesize(0.5,1)
+turtle.shape("arrow")
+turtle.turtlesize(0.5,0.5)
 turtle.fillcolor("red")
 
 #Lengths
@@ -41,9 +41,9 @@ turtle.pendown()
 # Set the turtle how I want it. ================================================================
 turtle.begin_fill()
 turtle.color("orange")
-turtle.shape("circle")
+turtle.shape("arrow")
 turtle.left(180)
-turtle.turtlesize(0.5,1)
+turtle.turtlesize(0.5,0.5)
 
 #More Lengths
 
@@ -54,7 +54,7 @@ angle = 35
 
 #Another Loop
 
-for x in range(20):
+for x in range(21):
     turtle.forward(length1)
     turtle.left(angle)
     turtle.forward(length3)
@@ -77,9 +77,9 @@ turtle.pendown()
 
 turtle.begin_fill()
 turtle.color("dark orange")
-turtle.shape("circle")
+turtle.shape("arrow")
 turtle.left(-180)
-turtle.turtlesize(0.5,1)
+turtle.turtlesize(0.5,0.5)
 
 
 
@@ -89,7 +89,7 @@ length3 = 10
 angle = 35
 
 #Another Loop
-for x in range(20):
+for x in range(21):
     turtle.forward(length1)
     turtle.left(angle)
     turtle.forward(length3)
@@ -109,7 +109,7 @@ turtle.begin_fill()
 turtle.color("blue")
 turtle.shape("arrow")
 turtle.left(-180)
-turtle.turtlesize(0.5,1)
+turtle.turtlesize(0.5,0.5)
 
 
 
@@ -119,7 +119,7 @@ length3 = 10
 angle = 35
 
 #Another Loop
-for x in range(17):
+for x in range(18):
     turtle.forward(length1)
     turtle.left(angle)
     turtle.forward(length3)
