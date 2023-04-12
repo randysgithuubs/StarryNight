@@ -23,7 +23,7 @@ angle = 60
 
 #Loop
 
-for x in range(25):
+for x in range(26):
     turtle.forward(length1)
     turtle.left(angle)
     turtle.right(length2)
@@ -35,22 +35,23 @@ turtle.end_fill()
 turtle.home()
 
 turtle.penup()
-turtle.forward(250)
+turtle.forward(150)
 turtle.pendown()
 
 # Set the turtle how I want it. ================================================================
+
 turtle.begin_fill()
 turtle.color("orange")
 turtle.shape("arrow")
 turtle.left(180)
-turtle.turtlesize(0.5,0.5)
+turtle.turtlesize(0.5,1)
 
 #More Lengths
 
-length1 = -25
-length2 = 15
-length3 = 10
-angle = 35
+length1 = -26
+length2 = 17
+length3 = 11
+angle = 34
 
 #Another Loop
 
@@ -64,9 +65,9 @@ turtle.end_fill()
 
 # Moving Turtle Again======================================
 
-turtle.left(90)
+turtle.left(150)
 turtle.penup()
-turtle.forward(-300)
+turtle.forward(-200)
 turtle.pendown()
 
 turtle.penup()
@@ -79,14 +80,13 @@ turtle.begin_fill()
 turtle.color("dark orange")
 turtle.shape("arrow")
 turtle.left(-180)
-turtle.turtlesize(0.5,0.5)
+turtle.turtlesize(0.5,1)
 
 
 
-length1 = -25
-length2 = 15
-length3 = 10
-angle = 35
+length1 = -26
+length2 = 17
+length3 = 11
 
 #Another Loop
 for x in range(21):
@@ -99,8 +99,9 @@ turtle.end_fill()
 
 #============================================================
 
+turtle.left(50)
 turtle.penup()
-turtle.forward(250)
+turtle.forward(350)
 turtle.pendown()
 
 #=====================================================================
@@ -113,7 +114,7 @@ turtle.turtlesize(0.5,0.5)
 
 
 
-length1 = -75
+length1 = -75 
 length2 = 55
 length3 = 10
 angle = 35
@@ -128,7 +129,7 @@ for x in range(18):
 turtle.end_fill()
 #=====================================================================
 
-
+#for x in range(20):
 
 
 
