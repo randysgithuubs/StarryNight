@@ -6,9 +6,10 @@ import turtle
 
 
 scr = turtle.Screen()
-turtle.begin_fill()
+scr.title("StarryNight(Python Turtle Graphics)")
 scr.bgcolor("black")
 
+turtle.begin_fill()
 
 turtle.color("red")
 turtle.shape("arrow")
